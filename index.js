@@ -3,7 +3,7 @@ const bot = new commando.Client();
 const Discord = require('discord.js');
 
 bot.on('ready', () => {
-    bot.user.setActivity("Gotta Run Faster Faster Faster");
+    bot.user.setActivity("Sup");
     console.log ("1")
     bot.user.setStatus('online');
     console.log ("2")
